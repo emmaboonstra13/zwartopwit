@@ -1,0 +1,44 @@
+body{ 
+    background-color: lightgray;
+}
+
+h1{
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 525;
+    background-color: white;
+    width: 30%;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+a{
+    color: black;
+    background-color: white;
+    border: 1px dotted black;
+    padding: 0.5em;
+    border-radius: 0.4em;
+    display: flex;
+    justify-content: center
+    
+}
+a:hover{
+    background-color:hsla(0, 100%, 27%, 0.334)
+}
+
+div,h2{
+    font-size: 20px;
+    color: rgb(139, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 350;
+    font-style: oblique;
+}
+
