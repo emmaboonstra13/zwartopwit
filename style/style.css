@@ -1,39 +1,19 @@
+
+/* alle pagina's */
 body{ 
     background-color: lightgray;
 }
 
 h1{
-
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 525;
-    background-color: white;
-    width: 30%;
-    padding: 0.5em;
-    border: 1px solid black;
-    border-radius: 0.5em;
     display: flex;
     justify-content: center;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 0.2em;
-}
-a{
-    color: black;
-    background-color: white;
-    border: 1px dotted black;
-    padding: 0.5em;
-    border-radius: 0.4em;
-    display: flex;
-    justify-content: center
-    
-}
-a:hover{
-    background-color:hsla(0, 100%, 27%, 0.334)
+    font-size: 2.2em;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
 
-div,h2{
-    font-size: 20px;
+h2{
+    font-size: 1.2em;
     color: rgb(139, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -41,4 +21,133 @@ div,h2{
     font-weight: 350;
     font-style: oblique;
 }
+
+ul, a{
+    list-style: none;
+    color: black;
+    background-color: white;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    border-radius: 0.4em;
+    transition: all 250ms ease;
+    display: flex;
+    justify-content: space-evenly
+}
+
+ul, a:hover{
+    background-color:hsla(0, 100%, 27%, 0.334);
+    transform: scale(1.1);
+}
+
+ul, a:focus{
+    background-color: hsla(0, 100%, 27%, 0.334);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 1em;
+    border: 0.5em solid black;
+}
+
+footer img{
+    width: 10%;
+    padding: 1em;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+/* class home  */
+.home img{
+    width: 15%;
+    border-radius: 30%;
+    padding: 1em;
+}
+
+.home section{
+    display: flex;
+}
+
+.home div{
+    width: 42%;
+}
+
+.home h2{
+    display: flex;
+    justify-content: left;
+}
+
+.home video{
+    border: 0.4em solid hsla(0, 100%, 27%, 0.334);
+    width: 50%;
+}
+
+
+/* class over ons pagina  */
+
+.overons h2{
+    display: flex;
+    justify-content: left;
+
+}
+
+.overons{
+    width: 50%;
+}
+
+.overons img{
+    width: 30%;
+}
+
+
+/* class afleveringen pagina  */
+
+.afleveringen section h2{
+
+    display: flex;
+    justify-content: left;
+}
+
+.afleveringen img{
+
+    width: 30%;
+}
+
+.afleveringen div{
+    font-style: oblique;
+}
+
+.afleveringen section{
+
+width: 50%;
+}
+
+
+.contact>ul{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border: none;
+    list-style: none;
+    margin-left: 2em;
+    padding-bottom: 5em;
+}
+
+.bronnenlijst{
+    margin-left: 4em;
+    padding-bottom: 10em;
+    background-color: lightgray;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
 
